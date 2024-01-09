@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ParentComponent from './P2C/Parent';
+import ParentComponent2 from './C2P/Parent2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <ParentComponent/> */}
+    <ParentComponent2/>
   </React.StrictMode>
 );
 
